@@ -1,0 +1,64 @@
+/*
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+*/
+
+html{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    color: red;
+    text-align: center;
+}
+#para1{
+    font-size: 40px;
+}
+
+.seleccionado{
+    color: green;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+}
+
+.titulo{
+    font-size: 100px;
+}
+
+h1,p{
+    background-color: aquamarine;
+}
+
+div + p{
+    background-color: yellow;
+    border: 10px solid purple;
+    margin-bottom: 300px;
+}
+
+p ~ ul{
+    background-color: black;
+    color: white;
+}
+
+/*Unvisited link*/
+a:link{
+    color: red;
+}
+
+/*Visited link*/
+a:link{
+    color: green;
+}
+
+/*mouse over link*/
+a:hover{
+    background-color: blueviolet;
+}       
+        
+        
